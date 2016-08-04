@@ -1,0 +1,30 @@
+{
+  "name": "cloudflare_dynamic_dns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "dotenv": "^2.0.0",
+    "external-ip": "^0.2.4",
+    "node-schedule": "^1.1.1",
+    "request-promise": "^4.1.0",
+    "standard": "^7.1.2",
+    "url-template": "^2.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyberlane/Cloudflare-Dynamic-DNS.git"
+  },
+  "author": "Justin Nel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cyberlane/Cloudflare-Dynamic-DNS/issues"
+  },
+  "homepage": "https://github.com/Cyberlane/Cloudflare-Dynamic-DNS#readme"
+}
